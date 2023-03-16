@@ -1,0 +1,1 @@
+com.bobvarioa.kubejsreiruntime.integrations.kube.KubePlugin

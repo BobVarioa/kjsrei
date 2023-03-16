@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "All Rights Reserved"
+[[mods]]
+    modId = "kubejsreiruntime"
+    version = "${file.jarVersion}"
+    displayName = "KubeJSREIRuntime"
+    authors = "BobVarioa"
+    description = ""
+[[dependencies.kubejsreiruntime]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[43,)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies.kubejsreiruntime]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.19.2,1.20)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies.kubejsreiruntime]]
+    modId = "kubejs"
+    mandatory = true
+    versionRange = "[1902.6.0-build.142,)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies.kubejsreiruntime]]
+    modId = "roughlyenoughitems"
+    mandatory = true
+    versionRange = "[9.1.591,)"
+    ordering = "NONE"
+    side = "BOTH"
