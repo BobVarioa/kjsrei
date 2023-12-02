@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[43,)"
+loaderVersion = "[47,)"
 license = "All Rights Reserved"
 [[mods]]
     modId = "kubejsreiruntime"
@@ -10,24 +10,24 @@ license = "All Rights Reserved"
 [[dependencies.kubejsreiruntime]]
     modId = "forge"
     mandatory = true
-    versionRange = "[43,)"
+    versionRange = "[47,)"
     ordering = "NONE"
     side = "BOTH"
 [[dependencies.kubejsreiruntime]]
     modId = "minecraft"
     mandatory = true
-    versionRange = "[1.19.2,1.20)"
+    versionRange = "[1.20.1,)"
     ordering = "NONE"
     side = "BOTH"
 [[dependencies.kubejsreiruntime]]
     modId = "kubejs"
     mandatory = true
-    versionRange = "[1902.6.0-build.142,)"
+    versionRange = "[2001.6.4-build.95,)"
     ordering = "NONE"
     side = "BOTH"
 [[dependencies.kubejsreiruntime]]
     modId = "roughlyenoughitems"
     mandatory = true
-    versionRange = "[9.1.591,)"
+    versionRange = "[12.0.674,)"
     ordering = "NONE"
     side = "BOTH"
